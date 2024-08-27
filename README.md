@@ -7,11 +7,21 @@ Real-time Detection: The model is capable of recognizing hand gestures in real-t
 Multiple Gesture Recognition: Supports recognition of various hand gestures like thumbs up, victory sign, open palm, etc.
 Interactive Interface: A user-friendly interface built using Streamlit to interact with the model easily.
 Project Structure
-data/: Contains the dataset used for training and testing the model.
-notebooks/: Jupyter notebooks used for data exploration, preprocessing, and model training.
-models/: Saved models and weight files.
+
+data
+Contains the dataset used for training and testing the model.
+
+notebooks/: 
+Jupyter notebooks used for data exploration, preprocessing, and model training.
+
+models/:
+Saved models and weight files.
+
 app.py: Streamlit app to run the hand gesture detection interface.
+
 requirements.txt: List of Python libraries required to run the project.
+
 README.md: This file providing an overview of the project.
+
 Dataset
 The dataset used for this project consists of images of different hand gestures. The images are labeled and organized into separate folders corresponding to each gesture.
